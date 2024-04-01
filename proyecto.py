@@ -86,11 +86,11 @@ def creditos():
     st.subheader("**Hecho por:**")
     st.write("**Cristian David Zabala Tavera**")
     # Imagen de introducción
-    st.image("introduccion.png")
     st.write("Sara Lucía Uribe Ruiz")
     st.subheader("**Presentado a:**")
     st.write("Alfredo Diaz Claro, Inteligencia Artificial, 55906")
     st.write('Los modelos predictivos se realizaron en python con google colab, https://colab.research.google.com/drive/1fv2z9vXe5DIyzVlw1qBisksvtgaNKUIE?usp=sharing"')
+    st.image("introduccion.png")
 # Función para mostrar el encabezado y el contenido inicial
 def mostrar_inicio():
     # Título inicial

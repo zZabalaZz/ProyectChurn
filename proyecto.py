@@ -7,8 +7,8 @@ import joblib as jb
 @st.cache_resource()
 def load_models():
     modeloNB = jb.load('modeloNB.bin')
-    modeloArbol = jb.load('ModeloArbol.bin')
-    modeloBosque = jb.load('ModeloBosque.bin')
+    modeloArbol = jb.load('modeloArbol.bin')
+    modeloBosque = jb.load('modeloBosque.bin')
     return modeloNB, modeloArbol, modeloBosque
 
 modeloNB, modeloArbol, modeloBosque = load_models()
